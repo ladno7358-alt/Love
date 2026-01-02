@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Фиксированный размер макета */
+.page {
+    position: relative;
+    width: 1390px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Фоны страниц */
+.page-1 {
+    background-image: url("../images/bg1.jpg");
+}
+
+.page-2 {
+    background-image: url("../images/bg2.jpg");
+}
+
+.page-3 {
+    background-image: url("../images/bg3.jpg");
+}
+
+
+/* ОБЩИЙ СТИЛЬ */
+.btn {
+    position: absolute;
+    padding: 12px 24px;
+    color: #E38792;
+    text-decoration: none;
+    border-radius: 16px;
+    font-family: Arial;
+}
+
+/* КООРДИНАТЫ ИЗ FIGMA */
+.btn-home {
+    left: 474px;   /* X */
+    top: 20px;     /* Y */
+}
+
+.btn-page2 {
+    left: 646px;
+    top: 20px;
+}
+
+.btn-page3 {
+    left: 840px;
+    top: 20px;
+}
+
+.btn-page4 {
+    left: 50px;  /* X из Figma */
+    top: 826px;     /* Y из Figma */
+}
+
+.btn-page5 {
+position: absolute;
+  left: 100px;
+  top: 770px;
+  z-index: 9999; /* чтобы была поверх всего */
+  transform: translateY(-50%);  
+  width: 189px;              /* Width из Figma */
+  height: 35px;              /* Height из Figma */
+
+  background: #BACB88;       /* Fill */
+  color: #FFFFFF;            /* Text */
+
+  border-radius: 25px;       /* Radius */
+  text-decoration: none;
+
+  font-family: 'Gropled', sans-serif;
+  font-size: 22px;           /* Font size */
+  font-weight: 600;          /* Font weight */
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.btn-page5:hover {
+  background: #4338CA;
+  transform: scale(1.03)
+}
+
+.btn-page6 {
+position: absolute;
+  left: 780px;
+  top: 770px;
+  z-index: 9999; /* чтобы была поверх всего */
+  transform: translateY(-50%);  
+  width: 189px;              /* Width из Figma */
+  height: 35px;              /* Height из Figma */
+
+  background: #BACB88;       /* Fill */
+  color: #FFFFFF;            /* Text */
+
+  border-radius: 25px;       /* Radius */
+  text-decoration: none;
+
+  font-family: 'Gropled', sans-serif;
+  font-size: 22px;           /* Font size */
+  font-weight: 600;          /* Font weight */
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.btn-page6:hover {
+  background: #4338CA;
+  transform: scale(1.03)
+}
+
+.btn-page7 {
+position: absolute;
+  left: 1120px;
+  top: 770px;
+  z-index: 9999; /* чтобы была поверх всего */
+  transform: translateY(-50%);  
+  width: 189px;              /* Width из Figma */
+  height: 35px;              /* Height из Figma */
+
+  background: #BACB88;       /* Fill */
+  color: #FFFFFF;            /* Text */
+
+  border-radius: 25px;       /* Radius */
+  text-decoration: none;
+
+  font-family: 'Gropled', sans-serif;
+  font-size: 22px;           /* Font size */
+  font-weight: 600;          /* Font weight */
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.btn-page7:hover {
+  background: #4338CA;
+  transform: scale(1.03)
+}
+
+.btn-page12 {
+position: absolute;
+  left: 10px;
+  top: 600px;
+  z-index: 9999; /* чтобы была поверх всего */
+  transform: translateY(-50%);  
+  width: 189px;              /* Width из Figma */
+  height: 35px;              /* Height из Figma */
+
+  background: #BACB88;       /* Fill */
+  color: #FFFFFF;            /* Text */
+
+  border-radius: 25px;       /* Radius */
+  text-decoration: none;
+
+  font-family: 'Gropled', sans-serif;
+  font-size: 22px;           /* Font size */
+  font-weight: 600;          /* Font weight */
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
